@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "blockutils",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+      "minerforstone.blockutils.BlockUtils"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+          "minerforstone.blockutils.BlockUtils"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+          "minerforstone.blockutils.BlockUtils"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+          "minerforstone.blockutils.BlockUtils"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+      "blockutils.mixins.json"
   ],
 
   "depends": {
